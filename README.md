@@ -32,11 +32,13 @@ from ride import Ride
 
 ```python
 # import Driver class here
+from driver import Driver
 ```
 
 
 ```python
 # import Passenger class here
+from passenger import Passenger
 ```
 
 ## Creating Instances
@@ -45,27 +47,36 @@ Let's now practice using our classes to make instances of those classes. Make tw
 
 
 ```python
-meryl = None
-daniel = None
+meryl = Passenger()
+daniel = Passenger()
 print(meryl, daniel)
 ```
+
+    <passenger.Passenger object at 0x00000217E9A109B0> <passenger.Passenger object at 0x00000217E9A10978>
+    
 
 Next, make one instance of the driver class and assign it to the variable, `flatiron_taxi`.
 
 
 ```python
-flatiron_taxi = None
+flatiron_taxi = Driver()
 print(flatiron_taxi)
 ```
+
+    <driver.Driver object at 0x00000217E9A108D0>
+    
 
 Finally, make two instances of the Ride class and assign them to `ride_to_school` and `ride_home`. 
 
 
 ```python
-ride_to_school = None
-ride_home = None
+ride_to_school = Ride()
+ride_home = Ride()
 print(ride_to_school, ride_home)
 ```
+
+    <ride.Ride object at 0x00000217E9A10BA8> <ride.Ride object at 0x00000217E9A10B70>
+    
 
 ## Summary
 Great! In this lab, we were able to define multiple classes and create instances of those classes.
