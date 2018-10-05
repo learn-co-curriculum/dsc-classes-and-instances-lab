@@ -1,13 +1,15 @@
 
-# Practice With Classes and Instances
+# Classes and Instances - Lab
 
 ## Introduction
 Okay, we learned how to declare classes and create instances in our last lesson. Let's put these new skills to the test!
 
 ## Objectives
 
-* Practice defining classes
-* Practice instantiating instances of classes
+You will be able to:
+
+* Define classes
+* Instantiate instances of classes
 
 ## Defining Classes
 
