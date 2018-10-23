@@ -4,9 +4,9 @@ from ipynb.fs.full.index import Driver, Passenger, Ride, meryl, daniel, flatiron
 def test_class_definitions():
     class ExampleClass:
         pass
-     assert type(Driver) == type(ExampleClass)
-     assert type(Passenger) == type(ExampleClass)
-     assert type(Ride) == type(ExampleClass)
+    assert type(Driver) == type(ExampleClass)
+    assert type(Passenger) == type(ExampleClass)
+    assert type(Ride) == type(ExampleClass)
 
 
 def test_instances():
