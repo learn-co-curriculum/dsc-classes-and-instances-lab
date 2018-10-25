@@ -55,7 +55,7 @@ print(meryl, daniel)
 ```
 
     <passenger.Passenger object at 0x00000217E9A109B0> <passenger.Passenger object at 0x00000217E9A10978>
-    
+
 
 Next, make one instance of the driver class and assign it to the variable, `flatiron_taxi`.
 
@@ -66,7 +66,7 @@ print(flatiron_taxi)
 ```
 
     <driver.Driver object at 0x00000217E9A108D0>
-    
+
 
 Finally, make two instances of the Ride class and assign them to `ride_to_school` and `ride_home`. 
 
@@ -78,7 +78,7 @@ print(ride_to_school, ride_home)
 ```
 
     <ride.Ride object at 0x00000217E9A10BA8> <ride.Ride object at 0x00000217E9A10B70>
-    
+
 
 ## Summary
 Great! In this lab, we were able to define multiple classes and create instances of those classes.
