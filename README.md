@@ -18,12 +18,12 @@ Let's define a `Ride`, `Driver`, and `Passenger` class as these are all crucial 
 
 > **Reminder:** *since we need to have some Python code in our class when we define it, we can simply write the keyword `pass` on the first line under our class definition*
 
-> **Note:** the next cell imports an extension, `autoreload`, from IPython which reloads our import just before we execute our code, so that if we make a change in one of our files (i.e. ride.py), that change will be reflected below. Don't worry about it right now, but know that it is just updating our imported code.
+> **Note:** the next cell imports an extension, `autoreload`, from IPython which reloads our import just before we execute our code, so that if we make a change in one of our files (i.e. ride.py), that change will be reflected below. Don't worry about it right now, but know that it is just updating our imported code. To run it, remove the below `#`s and run the cell. After running the cell, add the `#`s back **before** running your tests as the `%` operator will cause errors.
 
 
 ```python
-%load_ext autoreload
-%autoreload 2
+# %load_ext autoreload
+# %autoreload 2
 ```
 
 

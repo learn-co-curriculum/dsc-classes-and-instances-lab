@@ -1,2 +1,0 @@
-class Ride(object):
-    pass

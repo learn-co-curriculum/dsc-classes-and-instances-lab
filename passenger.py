@@ -1,2 +1,0 @@
-class Passenger(object):
-    pass
