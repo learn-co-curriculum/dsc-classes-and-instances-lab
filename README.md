@@ -22,12 +22,6 @@ So without further ado, create three files in this folder: **ride.py**, **driver
 
 
 ```python
-# %load_ext autoreload
-# %autoreload 2
-```
-
-
-```python
 from ride import Ride
 ```
 
@@ -54,7 +48,7 @@ daniel = Passenger()
 print(meryl, daniel)
 ```
 
-    <passenger.Passenger object at 0x00000217E9A109B0> <passenger.Passenger object at 0x00000217E9A10978>
+    <passenger.Passenger object at 0x10e72c668> <passenger.Passenger object at 0x10e72c630>
 
 
 Next, make one instance of the driver class and assign it to the variable, `flatiron_taxi`.
@@ -65,7 +59,7 @@ flatiron_taxi = Driver()
 print(flatiron_taxi)
 ```
 
-    <driver.Driver object at 0x00000217E9A108D0>
+    <driver.Driver object at 0x10e72c6d8>
 
 
 Finally, make two instances of the Ride class and assign them to `ride_to_school` and `ride_home`. 
@@ -77,7 +71,7 @@ ride_home = Ride()
 print(ride_to_school, ride_home)
 ```
 
-    <ride.Ride object at 0x00000217E9A10BA8> <ride.Ride object at 0x00000217E9A10B70>
+    <ride.Ride object at 0x10e72c940> <ride.Ride object at 0x10e72c908>
 
 
 ## Summary
