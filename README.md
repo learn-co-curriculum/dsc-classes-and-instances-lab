@@ -18,8 +18,6 @@ You're about to create your first packages with class definitions! You've alread
 
 So without further ado, create three files in this folder: **ride.py**, **driver.py** and **passenger.py**. In each of these, define an accompanying class. By convention, you should capitalize the names of these classes within the .py file. For example, in the ride.py file, define a Ride class. For now, the classes need not do anything, just write the keyword `pass` on the first line under each of your class definitions.
 
- 
-
 
 ```python
 from ride import Ride
