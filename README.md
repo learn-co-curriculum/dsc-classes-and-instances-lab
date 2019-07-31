@@ -25,18 +25,13 @@ from ride import Ride
 
 
 ```python
-# import Driver class here
-```
-
-
-```python
 # __SOLUTION__ 
 from ride import Ride
 ```
 
 
 ```python
-# import Passenger class here
+# import Driver class here
 ```
 
 
@@ -46,7 +41,10 @@ from ride import Ride
 from driver import Driver
 ```
 
-## Creating Instances
+
+```python
+# import Passenger class here
+```
 
 
 ```python
@@ -54,6 +52,8 @@ from driver import Driver
 # import Passenger class here
 from passenger import Passenger
 ```
+
+## Creating Instances
 
 Now practice using your classes to make instances of those classes. Make two instances of the Passenger class and assign them to the variables `meryl` and `daniel`, respectively.
 
@@ -63,8 +63,6 @@ meryl = None
 daniel = None
 print(meryl, daniel)
 ```
-
-Next, make one instance of the driver class and assign it to the variable, `flatiron_taxi`.
 
 
 ```python
@@ -77,13 +75,13 @@ print(meryl, daniel)
     <passenger.Passenger object at 0x10e72c668> <passenger.Passenger object at 0x10e72c630>
 
 
+Next, make one instance of the driver class and assign it to the variable, `flatiron_taxi`.
+
 
 ```python
 flatiron_taxi = None
 print(flatiron_taxi)
 ```
-
-Finally, make two instances of the Ride class and assign them to `ride_to_school` and `ride_home`. 
 
 
 ```python
@@ -95,15 +93,14 @@ print(flatiron_taxi)
     <driver.Driver object at 0x10e72c6d8>
 
 
+Finally, make two instances of the Ride class and assign them to `ride_to_school` and `ride_home`. 
+
 
 ```python
 ride_to_school = None
 ride_home = None
 print(ride_to_school, ride_home)
 ```
-
-## Summary
-Great! In this lab, you were able to define multiple classes and create instances of those classes.
 
 
 ```python
@@ -115,3 +112,6 @@ print(ride_to_school, ride_home)
 
     <ride.Ride object at 0x10e72c940> <ride.Ride object at 0x10e72c908>
 
+
+## Summary
+Great! In this lab, you were able to define multiple classes and create instances of those classes.
