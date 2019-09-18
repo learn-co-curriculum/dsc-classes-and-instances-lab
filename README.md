@@ -2,7 +2,7 @@
 # Classes and Instances - Lab
 
 ## Introduction
-Okay, you'lve learned how to declare classes and create instances in the last lesson. Now it's time to put these new skills to the test!
+Okay, you've learned how to declare classes and create instances in the last lesson. Now it's time to put these new skills to the test!
 
 ## Objectives
 
@@ -16,7 +16,7 @@ You will be able to:
 
 You're about to create your first packages with class definitions! You've already seen how to import packages such as NumPy and pandas, and you can organize your own code in a similar manner. For example, once you define the ride class in a file ride.py you can then import said code in another notebook or script with `import ride`. 
 
-So without further ado, create three files in this folder: **ride.py**, **driver.py** and **passenger.py**. In each of these, define an accompanying class. By convention, you should capitalize the names of these classes within the .py file. For example, in the ride.py file, define a Ride class. For now, the classes need not do anything, just write the keyword `pass` on the first line under each of your class definitions.
+So without further ado, create three files in this folder: **ride.py**, **driver.py**, and **passenger.py**. In each of these, define an accompanying class. By convention, you should capitalize the first letter of the names of these classes within the .py file. For example, in the ride.py file, define a Ride class. For now, the classes need not do anything, just write the keyword `pass` on the first line under each of your class definitions.
 
 
 ```python
