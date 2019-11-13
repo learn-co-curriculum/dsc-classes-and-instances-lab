@@ -1,2 +1,2 @@
-class Ride(object):
+class Ride:
     pass

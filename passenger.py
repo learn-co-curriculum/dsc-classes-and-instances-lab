@@ -1,2 +1,2 @@
-class Passenger(object):
+class Passenger:
     pass

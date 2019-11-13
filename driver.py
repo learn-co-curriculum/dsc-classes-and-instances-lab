@@ -1,2 +1,2 @@
-class Driver(object):
+class Driver:
     pass
