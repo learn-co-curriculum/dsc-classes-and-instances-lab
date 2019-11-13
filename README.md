@@ -52,14 +52,16 @@ Now practice using these classes to create instances. First, make two instances 
 # Two instances of the Passenger class
 meryl = None
 daniel = None
-print(meryl, daniel)
+
+print(meryl)
+print(daniel)
 ```
 
 Next, make one instance of the `Driver` class and assign it to the variable, `flatiron_taxi`.
 
 
 ```python
-# Two instances of the Driver class
+# One instance of the Driver class
 flatiron_taxi = None
 print(flatiron_taxi)
 ```
@@ -71,7 +73,9 @@ Finally, make two instances of the `Ride` class and assign them to `ride_to_scho
 # Two instances of the Ride class
 ride_to_school = None
 ride_home = None
-print(ride_to_school, ride_home)
+
+print(ride_to_school)
+print(ride_home)
 ```
 
 ## Summary
