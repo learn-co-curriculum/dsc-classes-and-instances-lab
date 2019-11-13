@@ -40,7 +40,7 @@ Create a `Passenger` class that doesn't contain anything in the following cell:
 
 ```python
 # Create Passenger class
-class Passenger(object):
+class Passenger:
     pass
 ```
 
@@ -53,22 +53,25 @@ Now practice using these classes to create instances. First, make two instances 
 # Two instances of the Passenger class
 meryl = Passenger()
 daniel = Passenger()
-print(meryl, daniel)
+
+print(meryl)
+print(daniel)
 ```
 
-    <__main__.Passenger object at 0x1082ae2e8> <__main__.Passenger object at 0x1082ae2b0>
+    <__main__.Passenger object at 0x10814d3c8>
+    <__main__.Passenger object at 0x10814d390>
 
 
 Next, make one instance of the `Driver` class and assign it to the variable, `flatiron_taxi`.
 
 
 ```python
-# Two instances of the Driver class
+# One instance of the Driver class
 flatiron_taxi = Driver()
 print(flatiron_taxi)
 ```
 
-    <driver.Driver object at 0x1082ae4a8>
+    <driver.Driver object at 0x10814d4e0>
 
 
 Finally, make two instances of the `Ride` class and assign them to `ride_to_school` and `ride_home`. 
@@ -78,10 +81,13 @@ Finally, make two instances of the `Ride` class and assign them to `ride_to_scho
 # Two instances of the Ride class
 ride_to_school = Ride()
 ride_home = Ride()
-print(ride_to_school, ride_home)
+
+print(ride_to_school)
+print(ride_home)
 ```
 
-    <ride.Ride object at 0x1082ae908> <ride.Ride object at 0x1082ae8d0>
+    <ride.Ride object at 0x10814d908>
+    <ride.Ride object at 0x10814d8d0>
 
 
 ## Summary
